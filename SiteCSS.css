@@ -6,6 +6,20 @@ h1 {
 	color: rgb(29,25,255);
 }
 
+a:link {
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: green;
+}
+
 p{
     text-align: justify;
+	font-size: 150%;
+	text-align: center;
 }
