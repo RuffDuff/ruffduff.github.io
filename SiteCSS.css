@@ -2,8 +2,14 @@ body{
 	background-color: rgb(255,167,91);
 }
 
+@font-face {
+	font-family: Vecna;
+	src: url('Vecna.otf');
+}
+
 h1 {
 	color: rgb(29,25,255);
+	font-size: 200%;
 }
 
 a:link {
