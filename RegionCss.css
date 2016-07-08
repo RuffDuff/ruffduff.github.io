@@ -1,0 +1,42 @@
+body {
+	background-image: url("MiserHalf.png");
+}
+
+@font-face {
+	font-family: Vecna;
+	src: url('Vecna.otf');
+}
+
+@font-face {
+	font-family: Anglodavek;
+	src: url('Anglodavek.otf');
+}
+
+h1 {
+	font-family: Anglodavek;
+	font-size: 250%;
+}
+
+div.transparent {
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+a:link {
+	font-family: Vecna;
+	opacity: 1;
+	color: black;
+	font-size: 200%;
+}
+
+a:hover {
+	font-family: Vecna;
+	color: purple;
+	text-transform: uppercase;
+	font-size: 200%;
+}
+
+div.regions {
+
+}

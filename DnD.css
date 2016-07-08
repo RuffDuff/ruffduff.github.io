@@ -9,7 +9,7 @@ body{
 
 @font-face {
 	font-family: Anglodavek;
-	src: url('Anglodavek.otf')
+	src: url('Anglodavek.otf');
 }
 
 h1 {
