@@ -4,12 +4,12 @@ body{
 
 @font-face {
 	font-family: Vecna;
-	src: url('Vecna.otf');
+	src: url('fonts/Vecna.otf');
 }
 
 @font-face {
 	font-family: Anglodavek;
-	src: url('Anglodavek.otf');
+	src: url('fonts/Anglodavek.otf');
 }
 
 h1 {
