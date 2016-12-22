@@ -8,7 +8,7 @@ body{
 }
 
 @font-face {
-	font-family: Anglodavek;
+	font-family: Anglodavekotf;
 	src: url('fonts/Anglodavek.otf');
 }
 
@@ -24,7 +24,7 @@ a:link {
 a:hover {
 	color: red;
 	font-weight: bold;
-	font-family: Anglodavek;
+	font-family: Anglodavekotf;
 }
 
 a:active {
