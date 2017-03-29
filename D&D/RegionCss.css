@@ -42,12 +42,12 @@ a:visited {
 
 a:hover {
 	font-family: Vecna;
-	color: purple;
 	text-transform: uppercase;
 	font-size: 200%;
 	text-shadow: 4px 4px 1px #459293;
 }
 
-div.regions {
 
+div.regions {
+	
 }
