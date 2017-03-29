@@ -1,15 +1,16 @@
 body {
 	background-image: url("MiserHalf.png");
+	background-size: cover;
 }
 
 @font-face {
 	font-family: Vecna;
-	src: url('VLCMETTA/fonts/Vecna.otf');
+	src: url('Vecna.otf');
 }
 
 @font-face {
 	font-family: Anglodavek;
-	src: url('VLCMETTA/fonts/Anglodavek.otf');
+	src: url('Anglodavek.otf');
 }
 
 h1 {
