@@ -18,7 +18,7 @@ body {
 h1 {
 	font-family: Anglodavek;
 	font-size: 250%;
-	text-shadow: 1;
+	text-shadow: 4px 4px 2px #459293;
 }
 
 div.transparent {
@@ -32,6 +32,7 @@ a:link {
 	opacity: 1;
 	color: black;
 	font-size: 200%;
+	text-shadow: 2px 2px 2px #459293;
 }
 
 a:visited {
@@ -43,6 +44,7 @@ a:hover {
 	color: purple;
 	text-transform: uppercase;
 	font-size: 200%;
+	text-shadow: 4px 4px 1px #459293;
 }
 
 div.regions {
