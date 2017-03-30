@@ -2,7 +2,7 @@ body {
 	background-image: url("VulgarisBase.png");
 	background-position: center;
 	background-color: #575757;
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	background-size: cover;
 }
 
@@ -36,7 +36,7 @@ div.history {
 
 div.districts {
 	height: 80%;
-	width: 50%;
+	width: 20%;
 	margin: auto auto;
 	background: rgba(0, 0, 0, 0.4);
 }
