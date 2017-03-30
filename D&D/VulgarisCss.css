@@ -34,9 +34,34 @@ div.history {
 	color: white;
 }
 
+div.buttonCenter {
+	height: 40%;
+	width: 10%;
+	margin: auto auto;
+}
+
 div.districts {
 	height: 80%;
 	width: 20%;
+	margin: auto auto;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+button.historyToggle {
+	background: rgba(0, 0, 0, 0.4);
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	color: white;
+}
+
+div.toggle {
+	font-size: 20px;
+	color: white;
+	height: 5%;
+	width: 10%;
 	margin: auto auto;
 	background: rgba(0, 0, 0, 0.4);
 }

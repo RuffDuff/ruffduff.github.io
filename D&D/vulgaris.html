@@ -6,8 +6,15 @@
 	</head>
 	<body>
 	<h1 align="center">Vulgaris</h1>
-	<div class="history">
-	<p align="center">
+	<script>
+	var b;
+	b = 1;
+	</script>
+	<div class="buttonCenter">
+	<button align="center" class="historyToggle" onclick="changeDisplay()">History Toggle</button>
+	</div>
+	<div id="historyDiv" class="history">
+	<p id="historyText" align="center">
 	Vulgaris was originally home to the elves. Eventually they were driven off the land, allowing for humans to dominate the continent. Eventually the Elves came back to reclaim their land. After a long and bloody battle, a settlment was agreed and now a half elf half human counsel runs the country.
 	</p>
 	</div>
@@ -28,7 +35,7 @@
 	</a>
 	</div>
 	
-	
+	<script src="changeDisplay.js"></script>
 	
 	</body>
 </html>
