@@ -1,6 +1,6 @@
 body {
 	background-image: url("VulgarisBase.png");
-	background-position: center;
+	/* background-position: center; */
 	background-color: #575757;
 	background-repeat: repeat-y;
 	background-size: cover;
