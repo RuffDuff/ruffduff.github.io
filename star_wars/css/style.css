@@ -5,6 +5,10 @@
 **
 ** Blame me for the music via embedded video bit
 */
+@font-face {
+	font-family: Univers;
+	src: url('UniversBlack.ttf');
+}
 
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
@@ -14,12 +18,13 @@ body, html
 {
   width: 100%;
   height: 100%;
-  font-family: "Droid Sans", arial, verdana, sans-serif;
+  font-family: "Univers", arial, verdana, sans-serif;
 	font-weight: 700;
-	color: #ff6;
+	color: #ffd502;
 	background-color: #000;
 	overflow: hidden;
 }
+
 
 p#start
 {
