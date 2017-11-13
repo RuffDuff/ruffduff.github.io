@@ -1,8 +1,8 @@
 body {
-	background-image: url("datapad_screen_blank_1.png");
+	background-image: url("datapad_screen_blank_2.png");
 	/* background-position: center; */
 	background-color: #575757;
-	background-size:100% auto;
+	background-size: cover;
 }
 
 @font-face {
