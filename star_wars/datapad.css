@@ -8,17 +8,21 @@ body {
 @font-face {
 	font-family: Aurebesh;
 	src: url('Aurebesh.ttf');
+
+	font-family: Univers;
+	src: url('UniversBlack.ttf');
+}
+
+div.text {
+	color: white;
+	font-family: Aurebesh;
 }
 
 h1 {
-	color: white;
-	font-family: Aurebesh;
 	font-size: 10vh;
 }
 
 p {
-	color: white;
-	font-family: Aurebesh;
 	font-size: 5vh;
 }
 
@@ -26,3 +30,4 @@ img.rebellogo {
 	width: 5%;
 	height: auto;
 }
+
