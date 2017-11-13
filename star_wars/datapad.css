@@ -1,0 +1,22 @@
+body {
+	background-image: url("datapad_screen_blank_1.png");
+	/* background-position: center; */
+	background-color: #575757;
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+
+@font-face {
+	font-family: Aurebesh;
+	src: url('Aurebesh.ttf');
+}
+
+h1 {
+	color: white;
+	font-family: Aurebesh;
+}
+
+p {
+	color: white;
+	font-family: Aurebesh;
+}
