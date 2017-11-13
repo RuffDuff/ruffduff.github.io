@@ -2,8 +2,7 @@ body {
 	background-image: url("datapad_screen_blank_1.png");
 	/* background-position: center; */
 	background-color: #575757;
-	background-repeat: repeat-y;
-	background-size: cover;
+	background-size:100% auto;
 }
 
 @font-face {
@@ -11,7 +10,14 @@ body {
 	src: url('Aurebesh.ttf');
 }
 
-div.col-sm-12 {
+h1 {
 	color: white;
 	font-family: Aurebesh;
+	font-size: 2.5em;
+}
+
+p {
+	color: white;
+	font-family: Aurebesh;
+	font-size: 1em;
 }
