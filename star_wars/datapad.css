@@ -27,7 +27,26 @@ p {
 }
 
 img.rebellogo {
-	width: 5%;
+	width: 5vh;
 	height: auto;
 }
 
+button.toggleButton {
+	width: 50vw;
+	height: auto;
+}
+
+div.containerBut {
+	margin: 0px 50vw;
+}
+
+.button {
+	background-color: rgba(40, 50, 55, 0.5); /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 3vh;
+	font-family: Univers;
+}
