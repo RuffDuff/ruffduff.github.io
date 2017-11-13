@@ -11,12 +11,7 @@ body {
 	src: url('Aurebesh.ttf');
 }
 
-h1 {
-	color: white;
-	font-family: Aurebesh;
-}
-
-p {
+div.col-sm-12 {
 	color: white;
 	font-family: Aurebesh;
 }
