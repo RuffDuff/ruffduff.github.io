@@ -22,7 +22,7 @@ function changeDisplay() {
 		*/
 		document.getElementById('historyDiv').style.height = '1%';
 		document.getElementById('historyDiv').style.width = '1%';
-		document.getElementById('historyDiv').style.opacity = 0;
+		document.getElementById('historyDiv').delete;
 		b = -1;
 	}
 	b = (b+1)
