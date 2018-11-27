@@ -20,9 +20,8 @@ function changeDisplay() {
 		/*
 		Window should disappear
 		*/
-		document.getElementById('historyDiv').style.height = '1%';
-		document.getElementById('historyDiv').style.width = '1%';
-		document.getElementById('historyDiv').delete;
+		document.getElementById('historyDiv').style.height = 0;
+		document.getElementById('historyDiv').style.width = 0;
 		b = -1;
 	}
 	b = (b+1)
