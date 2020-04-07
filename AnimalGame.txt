@@ -1,0 +1,65 @@
+Let's make a game!
+	name: Animal Crossing New Houses
+	author: Wagenenr
+	desc: An Animal Crossing clicker based off of New Horizons.
+	created:04/07/2020
+	updated:04/07/2020
+	version:0.0.0
+
+	//Comment Test
+
+Settings
+	background:ruffduff.github.io/clickerback.png
+	stylesheet:stuff/bigBlue.css
+	spritesheet:icons, 48 by 48, ruffduff.github.io/sprites.png
+
+Resources
+	*Sticks|Stick
+		name:Sticks
+		desc:Wood, but smaller.
+		icon:icons[2,1]
+	*Bells|Bell
+		name:Bells
+		desc:Money, more or less.
+		icon:icons[1,1]
+		hidden when 0
+	*House|Houses
+		name:Houses
+		desc:House Sweet House!
+		icon:
+		hidden when 0
+	*Furniture
+		name:Furniture
+		desc:Makes your island beautiful!
+		hidden when 0
+
+Buttons
+	*Tree
+		name:Shake Tree
+		desc:Click this to shake the tree. Gives sticks and more!
+		on click:yield 1 stick
+		on click:if chance(15%) yield 1 Bells
+		icon:www.ruffduff.github.io/Tree_NL
+		no text
+
+Buildings
+	*playerHouse
+		name:Your House
+		desc:Home Sweet Home!
+		passive:yield 1 House
+		cost:0 Sticks
+		unlocked
+	*animalHouse
+		name: Resident's House
+		desc: Your neighbors are pitching in to expand the village!
+		on tick:yield 10 Sticks
+		cost:50 Sticks, 10 Bells
+		req:1 House
+		passive:yield 1 House
+	*resService
+		name:Resident Services
+		desc: Isabelle will help all go well!
+		on tick:yield 15 Sticks
+		on tick:yield 10 bells
+		req:1 animalHouse
+		cost:100 Sticks, 50 Bells
