@@ -39,7 +39,7 @@
 {
 	width:100%;
 	top:5%;
-	height:20%;
+	height:50%;
 	min-height:32px;
 	z-index:100;
 	position:absolute;
