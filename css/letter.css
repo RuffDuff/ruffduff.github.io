@@ -17,7 +17,8 @@ div.signature {
 	
 }
 
-div.vertical-center {
+div.vh-center {
 	position: absolute;
 	top: 50%;
+	left: 50%
 }
